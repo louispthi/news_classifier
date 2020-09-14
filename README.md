@@ -8,7 +8,7 @@ The project is split into three main parts.
 
 We use BeautifulSoup to extract news articles from *La Presse* and *Le Journal de Montreal*. We extracted the articles from the archives and from the most recent news of the day. 
 
-The datas are contained in the folder Data and the web scraping is performed in the files in the Web Scraping folder. 
+The datas are contained in the folder ***Data*** and the web scraping is performed in the files in the ***Web Scraping*** folder. 
 
 ## Data Cleaning and Data Analysis (*Ongoing*)
 
