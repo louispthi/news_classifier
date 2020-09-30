@@ -10,12 +10,21 @@ We use BeautifulSoup to extract news articles from *La Presse* and *Le Journal d
 
 The datas are contained in the folder ***Data*** and the web scraping is performed in the files in the ***Web Scraping*** folder. 
 
-## Data Cleaning and Data Analysis (*Ongoing*)
+## Data Cleaning and Data Analysis
 
-We clean, analyze and prepare the datas for features engineering using text representation methods. 
+We clean, analyze and prepare the datas for features engineering using text representation methods. We use 'TF-IDF' Vectors as our feature engineering.
 
 This is done in the folder ***Data Cleaning***. 
 
-## Machine Learning Model (*To do*)
+## Machine Learning Model (*Ongoing*)
 
-We test several models (Random Forest, Support Vector Machine, K Nearest Neighbors, Naive Bayes, Logistic Regression, Gradient Boosting) and tune hyperparameters. 
+We test several models: 
+
+- Support Vector Machine (*Done*)
+- Random Forest
+- K Nearest Neighbors
+- Naive Bayes
+- Logistic Regression
+- Gradient Boosting
+
+This is done in the folder ***Model Training***.
