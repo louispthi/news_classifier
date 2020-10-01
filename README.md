@@ -22,7 +22,7 @@ We test several models:
 
 - Support Vector Machine (*Done*)
 - Random Forest
-- K Nearest Neighbors
+- K Nearest Neighbors (*Done*)
 - Naive Bayes
 - Logistic Regression
 - Gradient Boosting
