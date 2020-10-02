@@ -1,6 +1,6 @@
 # News Classifier 
 
-Weatherpredict is a machine learning project whose goal is to classify newspaper articles into five different categories. 
+***News Classifier*** is a machine learning project whose goal is to classify newspaper articles into five different categories. 
 
 The project is split into three main parts. 
 
