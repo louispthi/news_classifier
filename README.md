@@ -2,6 +2,12 @@
 
 ***News Classifier*** is a machine learning project whose goal is to classify newspaper articles into five different categories. 
 
+The project is inspired by a series of three articles by Miguel Fernández Zafra.
+
+https://towardsdatascience.com/text-classification-in-python-dd95d264c802
+
+The data was aquired at different newspapers than those in that project. 
+
 The project is split into three main parts. 
 
 ## Web Scraping
