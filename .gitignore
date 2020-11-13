@@ -133,3 +133,6 @@ dmypy.json
 
 #TODO
 /TODO.txt
+
+#Pickles 
+/Data cleaning/Pickles/
