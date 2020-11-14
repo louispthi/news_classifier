@@ -22,15 +22,17 @@ We clean, analyze and prepare the datas for features engineering using text repr
 
 This is done in the folder ***Data Cleaning***. 
 
-## Machine Learning Model (*Ongoing*)
+## Machine Learning Model
 
 We test several models: 
 
-- Support Vector Machine (*Done*)
+- Support Vector Machine 
 - Random Forest
-- K Nearest Neighbors (*Done*)
-- Naive Bayes
-- Logistic Regression
-- Gradient Boosting
+- K Nearest Neighbors 
+- Ridge Regression
 
-This is done in the folder ***Model Training***.
+This is done in the folder ***Model Training***. K Nearest Neighbors and Support Vecor Machine were tested using explicitely cross validation and (Random) Grid Search. Ridge Regression, Random Forest and Support Vecor Machine were tested and compared using AutoML with Neuraxle (https://www.neuraxle.org). 
+
+## Coming Next
+
+Next we will deploy the model using flask. 
