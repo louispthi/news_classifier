@@ -131,8 +131,12 @@ dmypy.json
 # DS_Store 
 .DS_Store
 
-#TODO
+# TODO
 /TODO.txt
 
-#Pickles 
+# Pickles 
 /Data cleaning/Pickles/
+/Model training/Models/
+
+# Cache 
+/Model training/cache/
