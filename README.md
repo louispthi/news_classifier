@@ -28,7 +28,7 @@ This is done in the folder ***Data Cleaning***.
 
 Using t-SNE to reducte dimension, we obtain the following plot.
 
-![tsne_svc](/Users/louispht/Dropbox/git_projects/news_classifier/Model training/Models/tsne_svc.png)
+![tsne_svc](/Data cleaning/tsne_svc.png)
 
 ## Machine Learning Models
 
