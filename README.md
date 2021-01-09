@@ -24,6 +24,12 @@ An analysis allowed us to see that one of the categories, 'actualites', was too 
 
 This is done in the folder ***Data Cleaning***. 
 
+## Visualisation 
+
+Using t-SNE to reducte dimension, we obtain the following plot.
+
+![tsne_svc](/Users/louispht/Dropbox/git_projects/news_classifier/Model training/Models/tsne_svc.png)
+
 ## Machine Learning Models
 
 We test several models: 
