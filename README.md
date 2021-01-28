@@ -34,6 +34,7 @@ Using t-SNE to reducte dimension, we obtain the following plot.
 
 We test several models: 
 
+- Naive Bayes
 - Support Vector Machine 
 - Random Forest
 - K Nearest Neighbors 
@@ -41,7 +42,9 @@ We test several models:
 
 This is done in the folder ***Model Training***. K Nearest Neighbors and Support Vecor Machine were tested using explicitely cross validation and (Random) Grid Search. Ridge Regression, Random Forest and Support Vecor Machine were tested and compared using AutoML with Neuraxle (https://www.neuraxle.org). 
 
-Support Vector Machine performed best with a 91% accuracy. It obtained a 99% accuracy score on training data, a typical sign of overfitting. However, we decided to train only on older articles and test on the newest articles, so the discrepancy could be explained by that. The reason for doing it this way is that we wanted to make sure that our model would work on new articles after deploying it. 
+We used Naive Bayes as a baseline model, which performed at 87% accuracy on the test set and 90% accuracy on the training set. 
+
+Support Vector Machine performed best with a 91% accuracy on the test set. It obtained a 99% accuracy score on training data, a typical sign of overfitting. However, we decided to train only on older articles and test on the newest articles, so the discrepancy could be explained by that. The reason for doing it this way is that we wanted to make sure that our model would work on new articles after deploying it. 
 
 ## Coming Next
 
