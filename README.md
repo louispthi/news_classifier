@@ -26,7 +26,7 @@ This is done in the folder ***Data Cleaning***.
 
 ## Visualisation 
 
-Using t-SNE to reducte dimension, we obtain the following plot.
+Using t-SNE to reduce dimension, we obtain the following plot.
 
 ![tsne](https://raw.githubusercontent.com/louispthi/news_classifier/master/Data%20cleaning/tsne.png)
 
