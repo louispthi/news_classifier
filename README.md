@@ -38,13 +38,14 @@ We test several models:
 - Support Vector Machine 
 - Random Forest
 - K Nearest Neighbors 
-- Ridge Regression
+- Ridge Logistic Regression
+- XGBoost
 
-This is done in the folder ***Model Training***. K Nearest Neighbors and Support Vecor Machine were tested using explicitely cross validation and (Random) Grid Search. Ridge Regression, Random Forest and Support Vecor Machine were tested and compared using AutoML with Neuraxle (https://www.neuraxle.org). 
+This is done in the folder ***Model Training***. At first, K Nearest Neighbors and Support Vecor Machine were tested using explicitely cross validation and (Random) Grid Search. Ridge Regression, Random Forest and Support Vecor Machine were tested and compared using AutoML with Neuraxle (https://www.neuraxle.org). We then chose the best performing models, that is, Support Vector Machine and Random Forest, together with XGBoost, and retrained them by adding the TFIDF hyperparameters in the Grid Search. This turned out to increase the accuracy of all models.
 
 We used Naive Bayes as a baseline model, which performed at 87% accuracy on the test set and 90% accuracy on the training set. 
 
-Support Vector Machine performed best with a 91% accuracy on the test set. It obtained a 99% accuracy score on training data, a typical sign of overfitting. However, we decided to train only on older articles and test on the newest articles, so the discrepancy could be explained by that. The reason for doing it this way is that we wanted to make sure that our model would work on new articles after deploying it. 
+Support Vector Machine performed best with a 94% accuracy on the test set. It obtained a 99% accuracy score on training data, a typical sign of overfitting. However, we decided to train only on older articles and test on the newest articles, so the discrepancy could be explained by that. The reason for doing it this way is that we wanted to make sure that our model would work on new articles after deploying it. 
 
 ## Coming Next
 
